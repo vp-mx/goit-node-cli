@@ -1,0 +1,31 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HW1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "format": "prettier --write \"./**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vp-mx/goit-node-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vp-mx/goit-node-cli/issues"
+  },
+  "homepage": "https://github.com/vp-mx/goit-node-cli#readme",
+  "dependencies": {
+    "commander": "^14.0.3",
+    "nanoid": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
+  }
+}
